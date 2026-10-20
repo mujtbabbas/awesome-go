@@ -41,6 +41,20 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 > _If you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you!_
 
+## About This Standalone Edition
+
+- **Main repository:** [avelino/awesome-go](https://github.com/avelino/awesome-go)
+- **Based on version:** upstream commit `c75e96a0762f3c65e58c27defa219f8c271d4ccd` (snapshotted 2026-10-20; upstream HEAD dated 2026-10-19)
+- **This edition:** v1.1.0 (v1.0.0 = clean baseline of the upstream version above)
+- **What was done:** Converted from a fork into a standalone repository (fresh history, baseline commit), then enhanced in place by Syed Mujtaba Abbas.
+- **Enhancements in this edition (v1.1.0):**
+  - This About section, with full upstream credit and version provenance (plus a Contents entry above)
+  - `ENHANCEMENTS.md` — per-version changelog of everything changed in this edition
+  - `.markdownlint.json` + `.github/workflows/markdown-check.yml` — markdown linting automation for the list (upstream workflows, including the Go test suite in tests.yaml, kept as-is)
+  - `.editorconfig` — standard editor settings (UTF-8, LF, 2-space indent)
+  - Dependabot: upstream already ships `.github/dependabot.yml` covering github-actions and gomod (the site generator's go.mod) — verified and kept exactly as-is
+- **Credit & licence:** All original work belongs to Thiago Avelino and the upstream contributors. Licence is preserved unchanged — see `LICENSE` (The MIT License (MIT), Copyright (c) 2014 Thiago Avelino; this full MIT text is what is actually in the tree). This edition adds the enhancements listed above only.
+
 ## Contents
 
 <details>
@@ -48,6 +62,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 - [Awesome Go](#awesome-go)
   - [Contents](#contents)
+  - [About This Standalone Edition](#about-this-standalone-edition)
   - [Actor Model](#actor-model)
   - [Artificial Intelligence](#artificial-intelligence)
   - [Audio and Music](#audio-and-music)
